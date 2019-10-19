@@ -1,0 +1,505 @@
+body {
+	background-color: rgb(233, 233, 233);
+}
+
+#pc {
+	background-color: #fff;
+	margin-top: 200px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 400px;
+	height: 250px;
+	border: solid 2px rgb(51, 51, 51);
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+}
+
+#tela {
+	width: 370px;
+	height: 210px;
+	margin: 15px;
+	border: solid 2px rgb(51, 51, 51);
+	background-color: rgb(128, 128, 128);
+}
+
+#linhaPreta {
+	margin-top: 20px;
+	margin-bottom: -15px;
+	;
+	width: 300px;
+	height: 2px;
+	background-color: rgb(51, 51, 51);
+}
+
+#codigo {
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: -192px;
+	width: 300px;
+	height: 400px;
+	background-color: white;
+	border: solid 2px rgb(51, 51, 51);
+}
+
+#linhasV1 {
+	margin-top: 30px;
+	margin-left: 20px;
+	width: 200px;
+	transition: width 2s;
+	animation: linhasV1 5s;
+	height: 15px;
+	background-color: rgb(231, 104, 104);
+}
+
+@keyframes linhasV1 {
+	from {
+		width: 50px;
+	}
+	to {
+		width: 200px;
+	}
+}
+
+#linhasV2 {
+	margin-top: 10px;
+	margin-left: 20px;
+	animation: linhasV2 2s;
+	width: 250px;
+	height: 15px;
+	background-color: rgb(231, 104, 104);
+}
+
+@keyframes linhasV2 {
+	from {
+		width: 50px;
+	}
+	to {
+		width: 250px;
+	}
+}
+
+#linhasA1 {
+	margin-top: 10px;
+	margin-left: 20px;
+	width: 210px;
+	height: 15px;
+	background-color: rgb(0, 255, 221);
+	animation: linhasA1 4s;
+}
+
+@keyframes linhasA1 {
+	from {
+		width: 50px;
+	}
+	to {
+		width: 210px;
+	}
+}
+
+#linhasA2 {
+	margin-top: 10px;
+	margin-left: 20px;
+	width: 230px;
+	height: 15px;
+	background-color: rgb(116, 240, 223);
+	animation: linhasA2 4s;
+}
+
+@keyframes linhasA2 {
+	from {
+		width: 50px;
+	}
+	to {
+		width: 230px;
+	}
+}
+
+#linhasA3 {
+	margin-top: 10px;
+	margin-left: 20px;
+	width: 200px;
+	height: 15px;
+	background-color: rgb(88, 161, 152);
+	animation: linhasA3 4s;
+}
+
+@keyframes linhasA3 {
+	from {
+		width: 50px;
+	}
+	to {
+		width: 200px;
+	}
+}
+
+#linhasA4 {
+	margin-top: 10px;
+	margin-left: 20px;
+	width: 250px;
+	height: 15px;
+	background-color: rgb(209, 241, 25);
+	animation: linhasA4 4s;
+}
+
+@keyframes linhasA4 {
+	from {
+		width: 50px;
+	}
+	to {
+		width: 250px;
+	}
+}
+
+#linhasV5 {
+	margin-top: 10px;
+	margin-left: 20px;
+	width: 210px;
+	height: 15px;
+	background-color: rgb(25, 241, 72);
+	animation: linhasV5 4s;
+}
+
+@keyframes linhasV5 {
+	from {
+		width: 50px;
+	}
+	to {
+		width: 210px;
+	}
+}
+
+#linhasV6 {
+	margin-top: 10px;
+	margin-left: 20px;
+	width: 270px;
+	height: 15px;
+	background-color: rgb(25, 241, 72);
+	animation: linhasV6 3s;
+}
+
+@keyframes linhasV6 {
+	from {
+		width: 50px;
+	}
+	to {
+		width: 270px;
+	}
+}
+
+#linhasV7 {
+	margin-top: 10px;
+	margin-left: 20px;
+	width: 200px;
+	height: 15px;
+	background-color: rgb(25, 241, 72);
+	animation: linhasV7 2s;
+}
+
+@keyframes linhasV7 {
+	from {
+		width: 50px;
+	}
+	to {
+		width: 200px;
+	}
+}
+
+#linhasV8 {
+	margin-top: 10px;
+	margin-left: 20px;
+	width: 240px;
+	height: 15px;
+	background-color: rgb(25, 241, 72);
+	animation: linhasV8 5s;
+}
+
+@keyframes linhasV8 {
+	from {
+		width: 50px;
+	}
+	to {
+		width: 240px;
+	}
+}
+
+#ti {
+	text-align: center;
+	padding: 5px;
+	margin-top: 20px;
+	padding: 5px;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 30px;
+	font-family: 'PT Mono', monospace;
+}
+
+#margem {
+	width: 400px;
+	height: 30px;
+	margin: -2px;
+	border: solid 2px rgb(51, 51, 51);
+	background-color: darkgray;
+}
+
+#traço1 {
+	width: 80px;
+	height: 2px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 13px;
+	background-color: rgb(54, 54, 54);
+}
+
+#traço2 {
+	width: 3px;
+	height: 20px;
+	margin-top: -11px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: rgb(54, 54, 54);
+}
+
+#apoio {
+	background-color: #fff;
+	width: 50px;
+	height: 40px;
+	margin-top: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	border: solid 2px rgb(51, 51, 51);
+}
+
+#apoio2 {
+	background-color: #fff;
+	width: 150px;
+	height: 15px;
+	margin-top: -2px;
+	margin-left: auto;
+	margin-right: auto;
+	border: solid 2px rgb(51, 51, 51);
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+}
+
+p {
+	font-family: 'Barlow', sans-serif;
+}
+
+#ruby {
+	text-align: center;
+	font-size: 60px;
+	margin-top: -100px;
+	margin-left: -150px;
+	background-image: linear-gradient(to right, #c0392b, #e74c3c);
+	color: white;
+	border: solid 2px rgb(51, 51, 51);
+	height: 70px;
+	width: 165px;
+	padding: 5px;
+	border-radius: 10px;
+	animation: ruby 0.5s;
+}
+
+@keyframes ruby {
+	from {
+		width: 50px;
+	}
+	to {
+		width: 165px;
+	}
+}
+
+#rubyseta {
+	margin-right: 10px;
+	width: 20px;
+	height: 20px;
+	background-color: #e74c3c;
+	border-right: solid 2px rgb(51, 51, 51);
+	border-top: solid 2px rgb(51, 51, 51);
+	transform: rotate(45deg);
+	margin-top: -125px;
+	margin-left: 18px;
+	animation: rubyseta 0.5s;
+}
+
+@keyframes rubyseta {
+	from {
+		margin-left: -98px;
+	}
+	to {
+		margin-left: 18px;
+	}
+}
+
+#python {
+	text-align: center;
+	font-size: 60px;
+	margin-top: 10px;
+	margin-left: 280px;
+	background-color: #2980b9;
+	border: solid 2px rgb(51, 51, 51);
+	color: white;
+	height: 70px;
+	width: 255px;
+	padding: 5px;
+	border-radius: 10px;
+	animation: python 1s;
+}
+
+@keyframes python {
+	from {
+		width: 50px;
+	}
+	to {
+		width: 255px;
+	}
+}
+
+#pythonseta {
+	margin-right: 10px;
+	width: 20px;
+	height: 20px;
+	background-color: #2980b9;
+	border-left: solid 2px rgb(51, 51, 51);
+	border-top: solid 2px rgb(51, 51, 51);
+	transform: rotate(45deg);
+	margin-top: -155px;
+	margin-left: 300px;
+}
+
+#js {
+	text-align: center;
+	font-size: 60px;
+	margin-top: -180px;
+	margin-left: 360px;
+	background-color: #ffd015;
+	border: solid 2px rgb(51, 51, 51);
+	color: white;
+	height: 70px;
+	width: 335px;
+	padding: 5px;
+	border-radius: 10px;
+	animation: js 1.2s;
+}
+
+@keyframes js {
+	from {
+		width: 50px;
+	}
+	to {
+		width: 335px;
+	}
+}
+
+#jsseta {
+	margin-right: 10px;
+	width: 20px;
+	height: 20px;
+	background-color: #ffd015;
+	border-left: solid 2px rgb(51, 51, 51);
+	border-bottom: solid 2px rgb(51, 51, 51);
+	transform: rotate(45deg);
+	margin-top: -125px;
+	margin-left: 350px;
+}
+
+#html {
+	text-align: center;
+	font-size: 60px;
+	margin-top: -190px;
+	margin-left: 360px;
+	background-color: #f39c12;
+	border: solid 2px rgb(51, 51, 51);
+	color: white;
+	height: 70px;
+	width: 180px;
+	padding: 5px;
+	border-radius: 10px;
+	animation: html 0.8s;
+}
+
+@keyframes html {
+	from {
+		width: 50px;
+	}
+	to {
+		width: 180px;
+	}
+}
+
+#htmlseta {
+	margin-right: 10px;
+	width: 20px;
+	height: 20px;
+	background-color: #f39c12;
+	border-left: solid 2px rgb(51, 51, 51);
+	border-bottom: solid 2px rgb(51, 51, 51);
+	transform: rotate(45deg);
+	margin-top: -100px;
+	margin-left: 350px;
+}
+
+#java {
+	text-align: center;
+	font-size: 60px;
+	margin-top: -10px;
+	margin-left: -180px;
+	background-color: white;
+	border: solid 2px rgb(51, 51, 51);
+	color: #2980b9;
+	height: 75px;
+	width: 180px;
+	padding: 5px;
+	border-radius: 10px;
+	animation: java 0.8s;
+}
+
+@keyframes java {
+	from {
+		width: 50px;
+	}
+	to {
+		width: 180px;
+	}
+}
+
+#javaseta {
+	margin-right: 10px;
+	width: 20px;
+	height: 20px;
+	background-color: white;
+	border-right: solid 2px rgb(51, 51, 51);
+	border-top: solid 2px rgb(51, 51, 51);
+	transform: rotate(45deg);
+	margin-top: -110px;
+	margin-left: 3px;
+	animation: javaseta 0.8s;
+}
+
+@keyframes javaseta {
+	from {
+		margin-left: -128px
+	}
+	to {
+		margin-left: 3px;
+	}
+}
+
+#tecejadas {
+	width: 277px;
+	height: 40px;
+	margin-top: 233px;
+	border-left: 4px dashed rgb(82, 82, 82);
+	border-bottom: 4px dashed rgb(82, 82, 82);
+}
+
+#tecejadas2 {
+	width: 35px;
+	height: 105px;
+	margin-top: -310px;
+	margin-left: 472px;
+	border-right: 4px dashed rgb(82, 82, 82);
+	border-bottom: 4px dashed rgb(82, 82, 82);
+}
